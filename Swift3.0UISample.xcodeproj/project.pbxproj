@@ -15,6 +15,7 @@
 		EE5CA20A1D8E7C3F0052380F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE5CA2081D8E7C3F0052380F /* LaunchScreen.storyboard */; };
 		EE5CA2151D8E7C3F0052380F /* Swift3_0UISampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5CA2141D8E7C3F0052380F /* Swift3_0UISampleTests.swift */; };
 		EE5CA2201D8E7C400052380F /* Swift3_0UISampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5CA21F1D8E7C400052380F /* Swift3_0UISampleUITests.swift */; };
+		EED2F9441D8EAB9E00A9946B /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED2F9431D8EAB9E00A9946B /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		EE5CA21B1D8E7C3F0052380F /* Swift3.0UISampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Swift3.0UISampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE5CA21F1D8E7C400052380F /* Swift3_0UISampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift3_0UISampleUITests.swift; sourceTree = "<group>"; };
 		EE5CA2211D8E7C400052380F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EED2F9431D8EAB9E00A9946B /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		EE5CA1FB1D8E7C3F0052380F /* Swift3.0UISample */ = {
 			isa = PBXGroup;
 			children = (
+				EED2F9421D8EAB8800A9946B /* Model */,
 				EE5CA1FC1D8E7C3F0052380F /* AppDelegate.swift */,
 				EE5CA1FE1D8E7C3F0052380F /* ViewController.swift */,
 				EE5CA2001D8E7C3F0052380F /* Main.storyboard */,
@@ -126,6 +129,14 @@
 				EE5CA2211D8E7C400052380F /* Info.plist */,
 			);
 			path = Swift3.0UISampleUITests;
+			sourceTree = "<group>";
+		};
+		EED2F9421D8EAB8800A9946B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EED2F9431D8EAB9E00A9946B /* User.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,6 +276,7 @@
 			files = (
 				EE5CA1FF1D8E7C3F0052380F /* ViewController.swift in Sources */,
 				EE5CA2051D8E7C3F0052380F /* Swift3_0UISample.xcdatamodeld in Sources */,
+				EED2F9441D8EAB9E00A9946B /* User.swift in Sources */,
 				EE5CA1FD1D8E7C3F0052380F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -512,6 +524,7 @@
 				EE5CA2261D8E7C400052380F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EE5CA2271D8E7C400052380F /* Build configuration list for PBXNativeTarget "Swift3.0UISampleTests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +533,7 @@
 				EE5CA2291D8E7C400052380F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EE5CA22A1D8E7C400052380F /* Build configuration list for PBXNativeTarget "Swift3.0UISampleUITests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +542,7 @@
 				EE5CA22C1D8E7C400052380F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
